@@ -1,0 +1,52 @@
+body {
+  background: linear-gradient(to bottom right, rgb(62, 146, 83), rgb(9, 192, 48)) no-repeat;
+  min-height: 100vh;
+  align-items: center;
+  text-align: center;
+}
+
+h1, h2, h3 {
+    font-family: 'Dosis', sans-serif;
+    color: white;
+}
+
+.important {
+    font-size: 300%;
+}
+
+ .round{
+    font-family: 'Dosis', sans-serif;
+    justify-content: center;
+    align-items: center;
+    min-height: 5vh;
+    position: relative;
+    padding: 20px 36px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    background: linear-gradient(90deg, #92f39f, #2ad357)
+}
+
+.slime{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.slime2{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.margin {
+    margin-top: 40vh;
+}
+
+#snail {
+    position: absolute;
+    top: 30vh;
+    left: 0;
+}
